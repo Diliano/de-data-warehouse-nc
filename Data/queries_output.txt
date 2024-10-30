@@ -1,0 +1,41 @@
+You are now connected to database "ncstaffsql" as user "diliano".
+ manager_name 
+--------------
+ Alex Swain
+(1 row)
+
+  staff_member  | num_cohorts_worked 
+----------------+--------------------
+ David Bartlett |                 19
+(1 row)
+
+ quarter | num_cohorts 
+---------+-------------
+       1 |           5
+(1 row)
+
+ total_revenue 
+---------------
+       3614.72
+(1 row)
+
+  course  | total_revenue 
+----------+---------------
+ Software |      70431.65
+(1 row)
+
+    area    | num_mentees 
+------------+-------------
+ Manchester |         118
+(1 row)
+
+ total_cost 
+------------
+    2620.85
+(1 row)
+
+ staff_member  | num_mentees 
+---------------+-------------
+ Simon Jackson |          18
+(1 row)
+
