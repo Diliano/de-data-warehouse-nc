@@ -1,0 +1,77 @@
+You are now connected to database "ncstaffsql" as user "diliano".
+DROP TABLE
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 21
+ staff_id |     full_name      |    area    |  manager_name  
+----------+--------------------+------------+----------------
+        1 | Alex Swain         | Remote     | Joe Mulvey
+        2 | Stephen Corke      | Manchester | Paul Rogerson
+        3 | Verity Gregory     | Remote     | Stephen Corke
+        4 | Simon Jackson      | Leeds      | Alex Swain
+        5 | Paul Copley        | Manchester | Paul Rogerson
+        6 | Paul Rogerson      | Manchester | Sam Caine
+        7 | John Hutcheon      | Manchester | August Aldred
+        8 | Jodie Cheung       | Manchester | August Aldred
+        9 | Pippa Austin       | Manchester | August Aldred
+       10 | Bela Bertalan      | Manchester | August Aldred
+       11 | Emily Bennett      | Manchester | James Heggs
+       12 | Mezz Davies        | Leeds      | David Bartlett
+       13 | Danika Crawley     | Manchester | Joe Mulvey
+       14 | August Aldred      | Manchester | Paul Rogerson
+       15 | Lee Kirkham        | Leeds      | David Bartlett
+       16 | Hev Magnier-Ashton | Manchester | Rose Mullan
+       17 | Eli Wiggins        | Manchester | James Heggs
+       18 | Kyle McPhail       | Manchester | Joe Mulvey
+       19 | Katherine Hurst    | Manchester | Stephen Corke
+       20 | David Bartlett     | Leeds      | Rose Mullan
+       21 | Chon Lee           | Manchester | Joe Mulvey
+(21 rows)
+
+INSERT 0 13
+ cohort_id |  course  | next_cohort_date 
+-----------+----------+------------------
+         1 | Software | 2024-08-24
+         2 | Data     | 2024-05-12
+         3 | Software | 2024-06-24
+         4 | Software | 2024-03-24
+         5 | Software | 2024-12-17
+         6 | Cloud    | 2024-11-03
+         7 | Software | 2024-02-24
+         8 | Software | 2024-07-24
+         9 | Cloud    | 2024-03-03
+        10 | Software | 2024-01-17
+        11 | Data     | 2024-01-12
+        12 | Software | 2024-04-13
+        13 | Software | 2024-10-17
+(13 rows)
+
+INSERT 0 21
+ staff_perf_id | staff_id | cohort_id | mentees | mentees_staff_rating | daily_rate | revenue 
+---------------+----------+-----------+---------+----------------------+------------+---------
+             1 |       14 |         1 |      13 |                    8 |     439.09 | 5708.17
+             2 |        8 |         1 |       9 |                    7 |     400.05 | 5200.65
+             3 |       21 |         2 |      15 |                    4 |      50.67 |  658.71
+             4 |       13 |         2 |       8 |                    9 |     698.99 | 9086.87
+             5 |        5 |         2 |       0 |                    9 |     699.00 | 9087.00
+             6 |        6 |         3 |       0 |                    4 |     150.01 | 1950.13
+             7 |        3 |         4 |      13 |                    9 |     578.26 | 7517.38
+             8 |       12 |         5 |      12 |                    7 |     548.33 | 7128.29
+             9 |       11 |         6 |       6 |                    7 |     550.35 | 7154.55
+            10 |        2 |         7 |       0 |                    8 |     600.28 | 7803.64
+            11 |        7 |         8 |       9 |                    7 |     200.67 | 2608.71
+            12 |       17 |         9 |      11 |                    8 |     588.88 | 7655.44
+            13 |       16 |        10 |       9 |                    5 |     511.45 | 6648.85
+            14 |       15 |        10 |      14 |                    5 |     421.89 | 5484.57
+            15 |       18 |        11 |       7 |                    5 |     199.99 | 2599.87
+            16 |        4 |        11 |      18 |                    2 |      12.99 |  168.87
+            17 |        1 |        11 |      11 |                   10 |     700.98 | 9112.74
+            18 |       20 |        12 |       2 |                    3 |      89.98 | 1709.62
+            19 |       19 |        12 |      10 |                    8 |     665.35 | 8649.55
+            20 |        9 |        12 |      10 |                    8 |     400.04 | 5200.52
+            21 |       10 |        13 |      11 |                    6 |     370.89 | 4821.57
+(21 rows)
+
